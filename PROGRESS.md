@@ -47,3 +47,9 @@ Supervisor: Koussai
 - Cell filtering: min_genes=200 -> removed 111 cells (24673 -> 24562)
 - Gene filtering: min_cells=3 -> removed [ACTUAL NUMBER] genes
 - Checkpoint saved: results/adata_qc_filtered.h5ad
+
+### Phase 2-3 results
+- Mitochondrial QC not applicable: MT genes absent from this pre-processed dataset (upstream removal, documented as a limitation)
+- Cell filtering: min_genes=200 -> removed 111 cells (24673 -> 24562)
+- Gene filtering: min_cells=3 -> removed 5 genes (15706 -> 15701)
+- Checkpoint saved: results/adata_qc_filtered.h5ad
