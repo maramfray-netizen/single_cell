@@ -1,5 +1,5 @@
 # Single-Cell RNA-seq Training Project — Progress Log
-
+   
 Project: PBMC control vs IFN-β stimulated (Kang et al. 2018)
 Supervisor: Koussai
 
@@ -41,12 +41,6 @@ Supervisor: Koussai
 - 24,673 cells x 15,706 genes loaded via pertpy (Kang et al. 2018)
 - Condition split: 12,358 stimulated / 12,315 control
 - Pre-existing cell_type labels: CD4 T cells (11238), CD14+ Monocytes (5697), B cells (2651), NK cells (1716), CD8 T cells (1621), FCGR3A+ Monocytes (1089), Dendritic cells (529), Megakaryocytes (132)
-
-### Phase 2-3 results
-- Mitochondrial QC not applicable: MT genes absent from this pre-processed dataset (upstream removal, documented as a limitation)
-- Cell filtering: min_genes=200 -> removed 111 cells (24673 -> 24562)
-- Gene filtering: min_cells=3 -> removed [ACTUAL NUMBER] genes
-- Checkpoint saved: results/adata_qc_filtered.h5ad
 
 ### Phase 2-3 results
 - Mitochondrial QC not applicable: MT genes absent from this pre-processed dataset (upstream removal, documented as a limitation)
