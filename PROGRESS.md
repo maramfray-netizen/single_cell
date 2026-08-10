@@ -36,3 +36,8 @@ Supervisor: Koussai
 
 ## Phase 10 — Interpretation and reporting
 - [ ] Not started
+
+### Phase 1 results
+- 24,673 cells x 15,706 genes loaded via pertpy (Kang et al. 2018)
+- Condition split: 12,358 stimulated / 12,315 control
+- Pre-existing cell_type labels: CD4 T cells (11238), CD14+ Monocytes (5697), B cells (2651), NK cells (1716), CD8 T cells (1621), FCGR3A+ Monocytes (1089), Dendritic cells (529), Megakaryocytes (132)
