@@ -63,3 +63,17 @@ Supervisor: Koussai
 - Disagreements investigated: cluster 6 (NK vs CD8 T - shared cytotoxic markers), cluster 13 (Megakaryocyte vs CD4 T - our call favored by strong platelet markers)
 - Low-confidence clusters flagged: cluster 17 (hemoglobin genes - likely erythrocyte contamination), clusters 10/14 (housekeeping genes, weak signal)
 - Checkpoint saved locally (not committed): results/adata_annotated.h5ad; comparison table committed: results/cluster_annotation_comparison.csv
+
+
+### Phase 5 results
+- Differential expression (Wilcoxon, stim vs ctrl) run per proposed cell type
+- Canonical ISGs checked for recovery across cell types
+- Response magnitude, shared vs cell-type-specific genes computed
+- Note: UMAP visualization skipped due to a torch/sympy package conflict in this environment; clustering and DE are unaffected since neither depends on UMAP
+
+
+### Phase 5 results
+- Differential expression (Wilcoxon, stim vs ctrl) run per proposed cell type
+- Canonical ISGs checked for recovery across cell types
+- Response magnitude, shared vs cell-type-specific genes computed
+- Note: UMAP visualization skipped due to a torch/sympy package conflict in this environment; clustering and DE are unaffected since neither depends on UMAP
