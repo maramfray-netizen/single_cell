@@ -47,3 +47,19 @@ Supervisor: Koussai
 - Cell filtering: min_genes=200 -> removed 111 cells (24673 -> 24562)
 - Gene filtering: min_cells=3 -> removed 5 genes (15706 -> 15701)
 - Checkpoint saved: results/adata_qc_filtered.h5ad
+
+
+### Phase 4 results
+- Independent Leiden clustering (18 clusters) scored against 8 canonical PBMC marker gene sets to propose cell type identities
+- Proposed identities compared against the dataset's existing cell_type (Kang) labels
+- Disagreements investigated: cluster 6 (NK vs CD8 T - shared cytotoxic markers), cluster 13 (Megakaryocyte vs CD4 T - our call favored by strong platelet markers)
+- Low-confidence clusters flagged: cluster 17 (hemoglobin genes - likely erythrocyte contamination), clusters 10/14 (housekeeping genes, weak signal)
+- Checkpoint saved locally (not committed): results/adata_annotated.h5ad; comparison table committed: results/cluster_annotation_comparison.csv
+
+
+### Phase 4 results
+- Independent Leiden clustering (18 clusters) scored against 8 canonical PBMC marker gene sets to propose cell type identities
+- Proposed identities compared against the dataset's existing cell_type (Kang) labels
+- Disagreements investigated: cluster 6 (NK vs CD8 T - shared cytotoxic markers), cluster 13 (Megakaryocyte vs CD4 T - our call favored by strong platelet markers)
+- Low-confidence clusters flagged: cluster 17 (hemoglobin genes - likely erythrocyte contamination), clusters 10/14 (housekeeping genes, weak signal)
+- Checkpoint saved locally (not committed): results/adata_annotated.h5ad; comparison table committed: results/cluster_annotation_comparison.csv

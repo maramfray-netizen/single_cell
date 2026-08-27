@@ -1,0 +1,19 @@
+leiden,top_markers,proposed_identity,kang_reference_identity,agreement
+0,"GIMAP7, RPL32, RPS18, RPS14, CCR7",CD4 T cells,CD4 T cells,True
+1,"RPS6, RPL7, RPL10, RPL13, RPS3A",CD4 T cells,CD4 T cells,True
+2,"FTH1, FTL, TIMP1, IL8, CD63",CD14+ Monocytes,CD14+ Monocytes,True
+3,"APOBEC3A, ISG15, IFITM3, CXCL10, IDO1",CD14+ Monocytes,CD14+ Monocytes,True
+4,"PABPC1, RPL3, RPL10, RPS2, RPS4X",CD4 T cells,CD4 T cells,True
+5,"GNLY, NKG7, GZMB, HLA-A, APOBEC3G",NK cells,NK cells,True
+6,"CCL5, NKG7, B2M, GZMB, APOBEC3G",NK cells,CD8 T cells,False
+7,"CD74, CD79A, HLA-DRA, HLA-DRB1, RPL18A",B cells,B cells,True
+8,"CREM, IFI6, B2M, HLA-C, TMSB4X",CD4 T cells,CD4 T cells,True
+9,"CD74, ISG20, HLA-DRA, CD79A, HLA-DPA1",B cells,B cells,True
+10,"EIF1, BTG1, UBC, UBB, CACYBP",CD4 T cells,CD4 T cells,True
+11,"FCGR3A, FTH1, TIMP1, CXCL16, MS4A7",FCGR3A+ Monocytes,FCGR3A+ Monocytes,True
+12,"MS4A7, FCGR3A, TNFSF10, MS4A4A, IFITM3",FCGR3A+ Monocytes,FCGR3A+ Monocytes,True
+13,"PPBP, PF4, GNG11, SDPR, NCOA4",Megakaryocytes,CD4 T cells,False
+14,"RAN, HSP90AB1, YBX1, CD83, EIF4A1",B cells,B cells,True
+15,"HLA-DPB1, HLA-DPA1, HLA-DRA, CD74, HLA-DRB1",Dendritic cells,Dendritic cells,True
+16,"SEC61B, TSPAN13, TXN, CD74, GZMB",Dendritic cells,Dendritic cells,True
+17,"HBB, HBA1, HBA2, ALAS2, SNCA",CD4 T cells,CD4 T cells,True
